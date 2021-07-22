@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    console.log('Try to change this text, and check the HMR')
   }
 }
 </script>
